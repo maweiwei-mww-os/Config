@@ -1,0 +1,1 @@
+{"name":"Game.Json.Compact.Editor","references":["Game.Json.Compact","Game.Config.Build","Game.Config.Json","Game.Config.Csv"],"includePlatforms":["Editor"]}

@@ -1,0 +1,13 @@
+{
+    "Passed": true,
+    "SourceEquivalent": true,
+    "Unity": "2022.3.60f1c1",
+    "Backend": "IL2CPP",
+    "ReadIterations": 200000,
+    "ActiveVersion": 2,
+    "CapturedVersion": 1,
+    "PositiveControlEvents": 1,
+    "EmptyControlEvents": 0,
+    "ReadAllocationEvents": 0,
+    "Checksum": 1000000046000000
+}

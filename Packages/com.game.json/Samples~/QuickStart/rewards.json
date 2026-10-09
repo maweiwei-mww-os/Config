@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "tables": [{
+    "name": "Reward",
+    "fields": [{"name":"id","type":"int"},{"name":"coins","type":"int"},{"name":"name","type":"string"},{"name":"weights","type":"int[]"}],
+    "rows": [[1,50,"Welcome",[1,2,3]],[2,100,"Daily",[2,4]]]
+  }]
+}

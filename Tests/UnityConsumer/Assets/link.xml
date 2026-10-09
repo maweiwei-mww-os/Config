@@ -1,0 +1,4 @@
+<linker>
+  <!-- Benchmark DTO reflection/JSON serialization is separate from generated access. -->
+  <assembly fullname="Assembly-CSharp" preserve="all" />
+</linker>

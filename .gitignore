@@ -1,0 +1,18 @@
+Library/
+Temp/
+Logs/
+obj/
+bin/
+UserSettings/
+Builds/
+Artifacts/
+*.csproj.user
+bin-framework/
+obj-framework/
+.vs/
+Distributions/*.zip
+Tests/UnityConsumer/Assets/Resources/Bench*Source.json*
+Tests/UnityConsumer/Assets/Resources/Bench*Dto.json*
+Tests/UnityConsumer/Assets/Resources/Bench*Binary.bytes*
+# Local Unity build logs contain machine/licensing identifiers.
+Tests/Evidence/**/framework-IL2CPP.log

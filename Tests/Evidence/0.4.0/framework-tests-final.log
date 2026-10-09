@@ -1,0 +1,83 @@
+Generated FixtureConfig: 322 bytes; D:\Packs\GameJsonTown\Tests\Generated
+PASS generated source is deterministic
+PASS generator rejects invalid identifiers and symbol collisions
+PASS generated columns and scalar/list references
+PASS generated long, float and bit-packed bool columns
+PASS reject non-finite float, numeric bool and scalar references
+PASS scalar boundaries, boolean byte boundaries and empty columns
+PASS binary scalar validation rejects padding and nonfinite values
+PASS missing IDs are explicit, default rows cannot be read
+PASS index policies agree across contiguous, dense gaps and sparse IDs
+PASS generated row and list foreach does not allocate
+PASS generated primitive columns expose allocation-free read-only spans
+PASS generated access also supports reference backend
+PASS additive fields and column reorder remain compatible
+PASS deleted or changed required fields fail during binding
+PASS generated contract checks references even when source drops ref metadata
+PASS reference retargeting is a breaking change even with matching IDs
+PASS legacy format remains readable by dynamic API
+PASS binary loader rejects unresolved references without a generated facade
+PASS prepare is invisible until commit and old rows retain their snapshot
+PASS failed parsing or binding does not publish
+PASS stale, foreign, reused and downgraded candidates are rejected
+PASS discarded candidates cannot publish and release their graph
+PASS commit and discard are serialized
+PASS concurrent candidates have exactly one winner
+PASS preparation detects a publication during loading
+PASS retaining committed ticket does not retain retired candidate
+PASS snapshot reads are allocation-free
+PASS concurrent readers never mix snapshot versions
+PASS retired snapshots are reclaimable
+PASS 1000 updates preserve held snapshot and release retired graphs
+FRAMEWORK RESULT 30 passed / 0 failed
+PASS runtime and build assemblies have no JSON dependency
+PASS 0.3.1 release binary and generated API remain byte compatible
+PASS JSON CSV and typed source produce identical binary and generated API
+PASS custom source needs only the public build contract
+PASS typed model owns input lists and rows
+PASS CSV quoting commas quotes and multiline strings
+PASS CSV is culture independent
+PASS defaults apply to omitted fields not explicit empty strings
+PASS common validator rejects missing required value wrong type duplicate id broken ref
+PASS CSV rejects duplicate unknown and missing headers malformed quoting width and scalar
+PASS diagnostics contain source table row and field
+PASS unknown types missing values and bad defaults fail even with no rows
+PASS JSON text preserves ISO dates as strings
+PASS JSON defaults reject explicit null and duplicate properties
+PASS CSV rejects overflow nonfinite scalars and malformed lists
+PASS CSV handles BOM and empty final cells and rejects extra tables
+PASS CSV multiline diagnostics track physical lines
+PASS common schema rejects duplicate fields and invalid revisions
+SOURCE RESULT 18 passed / 0 failed
+NO-JSON CONSUMER PASSED: CSV -> common compiler -> runtime; 200000 reads, 0 B
+Generated SourceConfig: 166 bytes; D:\Packs\GameJsonTown\Artifacts\CsvCliSample
+CSV CLI PASSED: binary and generated API match the shipped sample.
+PASS deterministic compilation
+PASS all game values match both backends
+PASS reject corrupt payload
+PASS reject truncated binary
+PASS reject duplicate id
+PASS reject broken cross-table reference
+PASS reject wrong field type
+PASS reject integer overflow
+PASS reject malformed row width
+PASS dense missing key and typed binding
+PASS sparse lookup and negative scalar
+PASS roll reserves once and settles once
+PASS invalid dice cannot mutate state
+PASS activity update preserves in-flight reward
+PASS invalid candidate retains active snapshot
+PASS save recovers pending settlement exactly once
+PASS upgrade debits exact cost
+PASS no upgrade during turn
+PASS completed town advances and resets buildings
+PASS incomplete town cannot advance
+PASS zero dice can recover without purchase
+PASS shield blocks chance penalty
+PASS independent backend produces same 100-turn game
+PASS warmed query loops allocate zero on both backends
+PASS repeated snapshot replacement releases old managed graph
+PASS performance ratios use measured scope and reject unavailable values
+PASS unavailable detector cannot certify zero allocation
+PASS all access workloads match and allocate zero after warmup
+RESULT 28 passed / 0 failed

@@ -1,0 +1,53 @@
+{
+  "Version": "0.3.1",
+  "CapturedUtc": "2026-10-09T08:32:20.3435012Z",
+  "PackageSHA256": "CDF5E8D2D0FB645AAA59324C16AF5C75B4C922BDDFFDC2287ED9265083FB320E",
+  "Note": "Final archive updates documentation after execution; all packaged C# files match the independently installed and executed package byte-for-byte.",
+  "UnityConsumer": "Tests/UnityConsumer",
+  "Backend": "Windows x64 IL2CPP Development High stripping",
+  "GameAssemblySHA256": "8CDCDE41951208C0DE7925D5640F40DBC296269DCB88BD1637A4CD8F4CA1C13E",
+  "BenchmarkSourceSHA256": "2138917644653944679ACFB63D7E87238B390E7EA2B8BB57AD6A313C923A22BE",
+  "FixtureSHA256": "C0660937AF2311094968F45E7181A7A4B00A9AA45FF01E80614174CA4CF0F1E4",
+  "PackageCode": [
+    {
+      "Path": "Editor\\ConfigMenus.cs",
+      "SHA256": "ABA19D9CB942DFFBF83ADFA64DB99B97BEA51F4C1C5FABFF95194910353638BC"
+    },
+    {
+      "Path": "Runtime\\ConfigCodeGenerator.cs",
+      "SHA256": "CA61B4855573C95B1995D374D82B252EA7E679C436E84E413E436CFC019079B0"
+    },
+    {
+      "Path": "Runtime\\ConfigColumns.cs",
+      "SHA256": "888A18B060E2D528FAB9C0426C32FF8D85E29A7CA7D0727C8FF170CD88DED78F"
+    },
+    {
+      "Path": "Runtime\\ConfigCompiler.cs",
+      "SHA256": "C0B72D3F85F5E43D82FA8DDC5458871C7B684D99B06274398752DB04D799E51A"
+    },
+    {
+      "Path": "Runtime\\ConfigData.cs",
+      "SHA256": "1ECF0D8721673513EED26240EAFFDC6C4C7E6233CBA049225EDE9649F55532E8"
+    },
+    {
+      "Path": "Runtime\\ConfigStore.cs",
+      "SHA256": "0A0F025CE361F62F7449974E85DC434AFF374CE8A3D61D658222534A4897E334"
+    },
+    {
+      "Path": "Runtime\\ObjectConfig.cs",
+      "SHA256": "7B536DF9DAD8569B69F791CAE48975914AE7B29556AFEEAFA43861B67E826C50"
+    },
+    {
+      "Path": "Samples~\\QuickStart\\ReadConfigExample.cs",
+      "SHA256": "B2607349FAE424254798D45DBD7F0113E577A04E4F8CC750B65B4F9E9E03F6A5"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\ExampleConfig.g.cs",
+      "SHA256": "B83DAB2361B7E62034965E0040A9C8162C656C0E2A9F501608B56823627A6677"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\TypedSnapshotExample.cs",
+      "SHA256": "764651A0E60CB141DF405879B390B0EBFEBA3250E13F9FAE69DD0D041F456DD6"
+    }
+  ]
+}

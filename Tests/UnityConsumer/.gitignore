@@ -1,0 +1,12 @@
+Library/
+Temp/
+Logs/
+UserSettings/
+Builds/
+ProjectSettings/*.asset
+ProjectSettings/*.json
+framework-editor-result.json
+package-smoke-result.json
+Assets/BenchmarkProgram.cs
+Assets/BenchmarkProgram.cs.meta
+Assets/Resources/Bench*

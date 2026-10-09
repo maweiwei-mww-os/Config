@@ -1,0 +1,2 @@
+# Preserve release-source hashes and golden fixtures across checkouts.
+* -text

@@ -1,0 +1,14 @@
+{
+  "name": "com.game.json",
+  "version": "0.4.0",
+  "displayName": "Game Config - Compact Runtime",
+  "description": "Source-independent configuration build model, JSON and CSV adapters, compact typed runtime and transactional snapshots.",
+  "unity": "2022.3",
+  "dependencies": { "com.unity.nuget.newtonsoft-json": "3.2.1" },
+  "samples": [
+    { "displayName": "Quick Start", "description": "Dynamic API and a standalone reading component.", "path": "Samples~/QuickStart" },
+    { "displayName": "Typed Snapshots", "description": "Generated access, cross-table references and prepared version updates.", "path": "Samples~/TypedSnapshots" },
+    { "displayName": "Source Independent", "description": "JSON, CSV and C# sources compile to identical data; a runtime-only reader consumes the output.", "path": "Samples~/SourceIndependent" }
+  ],
+  "author": { "name": "Game-Json" }
+}

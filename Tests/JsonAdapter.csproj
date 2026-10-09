@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><AssemblyName>Game.Config.Json</AssemblyName><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Packages/com.game.json/Runtime/Importers/Json/*.cs" />
+    <ProjectReference Include="RuntimeCore.csproj" /><ProjectReference Include="BuildCore.csproj" />
+    <Reference Include="Newtonsoft.Json"><HintPath>Dependencies/Newtonsoft.Json.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

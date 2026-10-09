@@ -1,0 +1,269 @@
+{
+  "Version": "0.4.0",
+  "CapturedUtc": "2026-10-09T11:45:12.9140042Z",
+  "PackageSHA256": "7374551807F5A6E5FA30284F3335528216300718D623EA6B9D4B96EFBD358D56",
+  "Note": "Final archive updates documentation after execution; packaged code, assembly definitions, binary fixtures, source data and existing metadata match the independently installed package byte-for-byte.",
+  "UnityConsumer": "Tests/UnityConsumer",
+  "Backend": "Windows x64 IL2CPP Development High stripping",
+  "GameAssemblySHA256": "EDA386DDBE939C92125DAC9CA1A404FEADA034217D8F2FD7E51FB5C93BB2B6C6",
+  "BenchmarkSourceSHA256": "2138917644653944679ACFB63D7E87238B390E7EA2B8BB57AD6A313C923A22BE",
+  "FixtureSHA256": "C0660937AF2311094968F45E7181A7A4B00A9AA45FF01E80614174CA4CF0F1E4",
+  "PackageCode": [
+    {
+      "Path": "CHANGELOG.md.meta",
+      "SHA256": "D426A93FEA4E693956C424007E09296209CEE0D68CB1C07DED87AF03E5CE267B"
+    },
+    {
+      "Path": "Editor.meta",
+      "SHA256": "638383334E40CA589E538961004171C0731DB9191AA7D4B0959373EE224BA45C"
+    },
+    {
+      "Path": "package.json",
+      "SHA256": "343042F997424983BB6338FC28FD231148EA0C43FFCBCE06181AA7643297F3A2"
+    },
+    {
+      "Path": "package.json.meta",
+      "SHA256": "6B274E78CE61C463C77B64EE51500E6877F2A8783F81BE07ACD1563D6484FC0F"
+    },
+    {
+      "Path": "README.md.meta",
+      "SHA256": "4B2A22829ACDF3892333DF6FF522FB56F658072FC0F60C2FC05AAA6F81C2BE32"
+    },
+    {
+      "Path": "Runtime.meta",
+      "SHA256": "1A81758E0C16A100418007E63713F20A59C264FA304407AA48EED2388F1DB822"
+    },
+    {
+      "Path": "ThirdParty.meta",
+      "SHA256": "565A03B6EAF22FCD9244C2E5E1D368A28BA463D146EB45B596C08B83FE7C974F"
+    },
+    {
+      "Path": "VERIFICATION.md.meta",
+      "SHA256": "45FFF7FDDBC0CCC98F94732E81A6D271C6C1C12D27E8EF11C6FACA11F624DDEF"
+    },
+    {
+      "Path": "Editor\\ConfigMenus.cs",
+      "SHA256": "BA8CC5A207438B437423AA251D7670B769DEC9AFDC7C6704D900B777205CFDF0"
+    },
+    {
+      "Path": "Editor\\ConfigMenus.cs.meta",
+      "SHA256": "B831961CD1F5C866A553EABE607A8F7DF54AAF73B41BBCD7088488C142DE3B45"
+    },
+    {
+      "Path": "Editor\\Game.Json.Compact.Editor.asmdef",
+      "SHA256": "34FA604A9BAD2D5412E44586C9FF144A3999635B72A8E5F6735DC499250FBAD6"
+    },
+    {
+      "Path": "Editor\\Game.Json.Compact.Editor.asmdef.meta",
+      "SHA256": "D8977B20F6FFF86E44818ADD71DBD49808ACFCA0851D8103C2D58DC493BEF720"
+    },
+    {
+      "Path": "Runtime\\Build.meta",
+      "SHA256": "45DBE8A4F02B5F6BE34E621CD8837493CFE51E723930273CF1D7B02F4DEA46CF"
+    },
+    {
+      "Path": "Runtime\\ConfigColumns.cs",
+      "SHA256": "888A18B060E2D528FAB9C0426C32FF8D85E29A7CA7D0727C8FF170CD88DED78F"
+    },
+    {
+      "Path": "Runtime\\ConfigColumns.cs.meta",
+      "SHA256": "81E2B8A69B210B75A629F0BC6D529BFA0EE43EBA1FA6D2CD1C00DA1A56090942"
+    },
+    {
+      "Path": "Runtime\\ConfigData.cs",
+      "SHA256": "C587D3F15EFB8E5DCC1211F7328F896838FF77F3AE63C5A6232E103DB5F49F2B"
+    },
+    {
+      "Path": "Runtime\\ConfigData.cs.meta",
+      "SHA256": "2A6E59FB25B0AD9039A4B1D60376175F211B89B191D03A4EDD21B92FFC454B1D"
+    },
+    {
+      "Path": "Runtime\\ConfigFormat.cs",
+      "SHA256": "856524889A827C390509AF1DC5C5081BBE54BE49051F46D17BFB62F5AF1D03A5"
+    },
+    {
+      "Path": "Runtime\\ConfigFormat.cs.meta",
+      "SHA256": "8C49DBD4F74B0EBF07A12E9B2B82305FBC8E9FA59B53DA28844D47412FEA6CE9"
+    },
+    {
+      "Path": "Runtime\\ConfigStore.cs",
+      "SHA256": "0A0F025CE361F62F7449974E85DC434AFF374CE8A3D61D658222534A4897E334"
+    },
+    {
+      "Path": "Runtime\\ConfigStore.cs.meta",
+      "SHA256": "5C44B9A60A13A91E8C7D3B32943B7EA842B9B90EA6350C82BA5B155662FF09B4"
+    },
+    {
+      "Path": "Runtime\\Game.Json.Compact.asmdef",
+      "SHA256": "343689C564026D56E35B1861DA2C5DD2557642891FC7C5B0838B71112D1ABD67"
+    },
+    {
+      "Path": "Runtime\\Game.Json.Compact.asmdef.meta",
+      "SHA256": "947D5D579CBBA786B97378583FA4A5C6A291DB461FDABC12E35BDDF2A1E99BB3"
+    },
+    {
+      "Path": "Runtime\\Importers.meta",
+      "SHA256": "5FB7C737B032F199349D9CD605B704A2774357C56CE35714C4DBE12D67AF3BC0"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigBuild.cs",
+      "SHA256": "BDD92009CBD19925EB702914397232A67B3678E52C94AEC3AF269595A677BDC4"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigBuild.cs.meta",
+      "SHA256": "3E687606C6DE651D4B7C4D0F132A0163F1498FFECFCF11F6AF69C160FC183ABA"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigCodeWriter.cs",
+      "SHA256": "3DCFC6F454EFB9DC0C887C0CB3507EFABABB8D9CAE9E90C712EB82E49881B0FB"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigCodeWriter.cs.meta",
+      "SHA256": "9B1C98293B9C55F1EE7213FAC17813615C79DC8E7310179F3D83388665B87ACD"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigModel.cs",
+      "SHA256": "9153C383A7918495D70BA644073D1DC633EE4A003697486BF95DB96506F0B08C"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigModel.cs.meta",
+      "SHA256": "89CB641D2FC372943E0B3D5D750E9C6BF4E15276D966B6F35534428C85FBAE32"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigValidation.cs",
+      "SHA256": "B2468DCF1B864F378F02038FC45503E7D6A21E15B04BE5F71C09DFFDA8479D31"
+    },
+    {
+      "Path": "Runtime\\Build\\ConfigValidation.cs.meta",
+      "SHA256": "035A3A6D93B6D420ED5E8EB20E74B8984B0D1B649108AF6E093F3C19CF14EC49"
+    },
+    {
+      "Path": "Runtime\\Build\\Game.Config.Build.asmdef",
+      "SHA256": "CCE695332739315AC9223796F1D2E60E5A9C0C96538D8C1908637B3374D3A365"
+    },
+    {
+      "Path": "Runtime\\Build\\Game.Config.Build.asmdef.meta",
+      "SHA256": "7E6548CA43AA9DF5E2C6CB6D6CBF75D97400BED3B4814EFEE3DAF7272806F15B"
+    },
+    {
+      "Path": "Runtime\\Importers\\Csv.meta",
+      "SHA256": "729966AF8B7FA27270F16B53C678F296E9D04126FA8B0172F9B19EDB9DF05A2A"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json.meta",
+      "SHA256": "6858CD2DEE606F9A65FD41C802FC6FEE1856C0F7CB8DFFB6E5760BFAFD0DD8F3"
+    },
+    {
+      "Path": "Runtime\\Importers\\Csv\\CsvConfigSource.cs",
+      "SHA256": "432E008F1E30E9189EC8F2EDD32F3C79F7C210F692135CAB931D99F410830619"
+    },
+    {
+      "Path": "Runtime\\Importers\\Csv\\CsvConfigSource.cs.meta",
+      "SHA256": "0A29CA8169E74BF99EBB8C245332EAECA1671AEE91C83CA69EC6BD26D024B20E"
+    },
+    {
+      "Path": "Runtime\\Importers\\Csv\\Game.Config.Csv.asmdef",
+      "SHA256": "B0F659F5B2597676AD82E05DD64835750B150A11CC1AD863890994C2EA36EB9B"
+    },
+    {
+      "Path": "Runtime\\Importers\\Csv\\Game.Config.Csv.asmdef.meta",
+      "SHA256": "C5AB38E0EB441ECCDEB92D9CB12B73EB1D6E14DB05B3C254A59BCCCE748E6C16"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\Game.Config.Json.asmdef",
+      "SHA256": "D0D9C5006DEA85082FF902E7DB9472F7DDF6389C2E5FD7924FA71A7098BD5C86"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\Game.Config.Json.asmdef.meta",
+      "SHA256": "AF1DA004DAC9F114BE3BFAF0909A461B3BB79B0A89C6740DB629E5606E5DD532"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\JsonConfigSource.cs",
+      "SHA256": "D7D85968EDB673A396A6A22C8BF735E35EAB9827A40818164DF109FD7EB11587"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\JsonConfigSource.cs.meta",
+      "SHA256": "0369C7FCD8A7C614E30F2162EDE7073A3005F1D185E75DB9A31E9A948CD4B89C"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\ObjectConfig.cs",
+      "SHA256": "B5B9A6368A766FC610A6AF9BF6CED0D2EA6E08070D564AF1A2820392C8C13CC3"
+    },
+    {
+      "Path": "Runtime\\Importers\\Json\\ObjectConfig.cs.meta",
+      "SHA256": "332144795B4F9F4CDEF49A848C9B87A070B10E88F6AD6CC54E231A423173FBEF"
+    },
+    {
+      "Path": "Samples~\\QuickStart\\ReadConfigExample.cs",
+      "SHA256": "B2607349FAE424254798D45DBD7F0113E577A04E4F8CC750B65B4F9E9E03F6A5"
+    },
+    {
+      "Path": "Samples~\\QuickStart\\rewards.json",
+      "SHA256": "79968AE80E680C92167AF22F452AD8A407F8670C982E148ED6C345F3471BFB81"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\Game.Config.SourceSample.asmdef",
+      "SHA256": "373FE3CC16E156F596988BFCEB5C4C1F9A3AB3A07A16854F236977A4D14F819C"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\Reward.csv",
+      "SHA256": "EF769864CF43C5D61878F74A797FE1C009D14891D850B3F88B1FC8A3DCB11D2A"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\source.json",
+      "SHA256": "863555A0210BD746CF2C4D63746E24D9D35849E471FD0DE4331A0BD8817C6014"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\SourceConfig.bytes",
+      "SHA256": "D344E2967364F552A2B0385ABC0C3B2E0FB1479FEFA7233525852E64BF8C85A8"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\SourceConfig.g.cs",
+      "SHA256": "97DE5A14C3FB7B8AFD6993944DA92CA4CF7BB60D40EFE367078BD2984FAB39AD"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\SourceSampleReader.cs",
+      "SHA256": "79FFF046EAFFC02AE6997E915CD160BC6525FF260C295288DAF21792CC6168A1"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\Tile.csv",
+      "SHA256": "8CFA55C423189757D73C4112ADBD2F8D0AF8C941A62E290692D7047086F9A3C8"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\Editor\\Game.Config.SourceSample.Editor.asmdef",
+      "SHA256": "AB91C1CF8B4B850393D1F027BDAF2540CC5292FC9B167D6A41B96156B6BD08A4"
+    },
+    {
+      "Path": "Samples~\\SourceIndependent\\Editor\\SourceSampleBuild.cs",
+      "SHA256": "3E01BD55DABA75158ABCF7A0683938030E1B7B4FAEB7F72FFCBCF98C5E2CBC06"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\config-update.json",
+      "SHA256": "D4E4C9CDAA973B3970788EDF0728D6B5A1B499939CF45294BE64FD255C8AB801"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\config.json",
+      "SHA256": "AD41F2203B78768A75697546F42E62EC005B69506259B5C7CA6A5A9CF85EC7D5"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\ExampleConfig.bytes",
+      "SHA256": "E83D927C89D18B2D3159F555BA787C3195FA609025C09C6D0FE4362ADF73A83C"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\ExampleConfig.g.cs",
+      "SHA256": "B83DAB2361B7E62034965E0040A9C8162C656C0E2A9F501608B56823627A6677"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\ExampleConfigUpdate.bytes",
+      "SHA256": "D2A39AE31863306E3BE11847632A4C063879E5EB6928B2E9BA405E189CE9DCFA"
+    },
+    {
+      "Path": "Samples~\\TypedSnapshots\\TypedSnapshotExample.cs",
+      "SHA256": "764651A0E60CB141DF405879B390B0EBFEBA3250E13F9FAE69DD0D041F456DD6"
+    },
+    {
+      "Path": "ThirdParty\\Newtonsoft.LICENSE.md.meta",
+      "SHA256": "F12FEFA25D85033B8020D15534097928B9F42238FBC7BA9D7A19C2333C7690C8"
+    }
+  ]
+}

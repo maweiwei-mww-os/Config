@@ -1,0 +1,8 @@
+{
+  "name": "Game.Json.Compact",
+  "rootNamespace": "GameJson",
+  "autoReferenced": true,
+  "noEngineReferences": true,
+  "overrideReferences": true,
+  "precompiledReferences": []
+}

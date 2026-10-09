@@ -1,0 +1,721 @@
+{
+  "TimestampUtc": "2026-10-09T11:44:03.1431435Z",
+  "Runtime": "Mono Unity IL2CPP (Oct  9 2026 19:36:01)",
+  "OS": "Microsoft Windows NT 10.0.26200.0",
+  "Architecture": "X64",
+  "CPU": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "ProcessorCount": 12,
+  "StopwatchFrequency": 10000000,
+  "DtoParser": "Unity JsonUtility typed DTO; IL2CPP/Mono as reported by framework probe",
+  "AllocationCounterUnit": "events",
+  "EmptyControl": 0,
+  "PositiveControl": 1,
+  "LoadRounds": 5,
+  "QueryRounds": 7,
+  "TimingExcludesAllocationProbes": true,
+  "Scope": "In-process warm managed loading; input buffers preloaded/excluded; post-full-GC retained graph estimate, not process peak; identical values, DTO JSON shape differs; compact includes checksum, reference validation and generated binding.",
+  "Results": [
+    {
+      "RowsPerTable": 1000,
+      "TotalRows": 3000,
+      "BinaryBytes": 76701,
+      "SourceJsonUtf8Bytes": 86641,
+      "DtoJsonUtf8Bytes": 173159,
+      "OfflineCompileMs": -1.0,
+      "Backends": [
+        {
+          "Backend": "CompactFastLookup",
+          "RetainedManagedBytes": 110592,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 121,
+          "LoadMedianMs": 1.4655,
+          "LoadMinMs": 1.352,
+          "LoadMaxMs": 1.8324,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 127.171,
+              "MinNsPerOperation": 120.589,
+              "MaxNsPerOperation": 147.3735,
+              "AllocatedBytes": 0,
+              "Checksum": 500000153331659
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 61.636,
+              "MinNsPerOperation": 49.9465,
+              "MaxNsPerOperation": 69.112,
+              "AllocatedBytes": 0,
+              "Checksum": 100226432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 29.8325,
+              "MinNsPerOperation": 20.5985,
+              "MaxNsPerOperation": 36.8355,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 10000,
+              "MedianNsPerOperation": 25.75,
+              "MinNsPerOperation": 25.46,
+              "MaxNsPerOperation": 26.92,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 10000,
+              "MedianNsPerOperation": 0.86,
+              "MinNsPerOperation": 0.85,
+              "MaxNsPerOperation": 0.87,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionary",
+          "RetainedManagedBytes": 421888,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 6014,
+          "LoadMedianMs": 6.3777,
+          "LoadMinMs": 5.4161,
+          "LoadMaxMs": 7.9216,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 74.767,
+              "MinNsPerOperation": 67.866,
+              "MaxNsPerOperation": 117.6725,
+              "AllocatedBytes": 0,
+              "Checksum": 500000153331659
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 24.676,
+              "MinNsPerOperation": 22.125,
+              "MaxNsPerOperation": 35.1095,
+              "AllocatedBytes": 0,
+              "Checksum": 100226432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 14.8345,
+              "MinNsPerOperation": 11.716,
+              "MaxNsPerOperation": 44.2945,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 10000,
+              "MedianNsPerOperation": 1.74,
+              "MinNsPerOperation": 1.2,
+              "MaxNsPerOperation": 2.5,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 10000,
+              "MedianNsPerOperation": 1.19,
+              "MinNsPerOperation": 1.17,
+              "MaxNsPerOperation": 1.65,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionaryPooledStrings",
+          "RetainedManagedBytes": 385024,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 6023,
+          "LoadMedianMs": 7.5637,
+          "LoadMinMs": 6.8814,
+          "LoadMaxMs": 8.3263,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 74.4915,
+              "MinNsPerOperation": 61.6965,
+              "MaxNsPerOperation": 85.2165,
+              "AllocatedBytes": 0,
+              "Checksum": 500000153331659
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 25.399,
+              "MinNsPerOperation": 23.603,
+              "MaxNsPerOperation": 29.6475,
+              "AllocatedBytes": 0,
+              "Checksum": 100226432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 17.2905,
+              "MinNsPerOperation": 14.893,
+              "MaxNsPerOperation": 22.6945,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 10000,
+              "MedianNsPerOperation": 1.97,
+              "MinNsPerOperation": 1.18,
+              "MaxNsPerOperation": 5.4,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 10000,
+              "MedianNsPerOperation": 1.19,
+              "MinNsPerOperation": 1.16,
+              "MaxNsPerOperation": 2.14,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            }
+          ]
+        },
+        {
+          "Backend": "CompactSmallIndex",
+          "RetainedManagedBytes": 81920,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 118,
+          "LoadMedianMs": 1.4084,
+          "LoadMinMs": 1.3419,
+          "LoadMaxMs": 1.9068,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 134.889,
+              "MinNsPerOperation": 123.6535,
+              "MaxNsPerOperation": 141.7835,
+              "AllocatedBytes": 0,
+              "Checksum": 500000153331659
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 214.8535,
+              "MinNsPerOperation": 204.962,
+              "MaxNsPerOperation": 260.94,
+              "AllocatedBytes": 0,
+              "Checksum": 100226432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 234.5005,
+              "MinNsPerOperation": 218.6675,
+              "MaxNsPerOperation": 412.5635,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 10000,
+              "MedianNsPerOperation": 25.61,
+              "MinNsPerOperation": 25.39,
+              "MaxNsPerOperation": 26.7,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 10000,
+              "MedianNsPerOperation": 0.86,
+              "MinNsPerOperation": 0.85,
+              "MaxNsPerOperation": 1.04,
+              "AllocatedBytes": 0,
+              "Checksum": 4995000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RowsPerTable": 10000,
+      "TotalRows": 30000,
+      "BinaryBytes": 761826,
+      "SourceJsonUtf8Bytes": 931478,
+      "DtoJsonUtf8Bytes": 1800996,
+      "OfflineCompileMs": -1.0,
+      "Backends": [
+        {
+          "Backend": "CompactFastLookup",
+          "RetainedManagedBytes": 987136,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 121,
+          "LoadMedianMs": 17.0255,
+          "LoadMinMs": 13.5116,
+          "LoadMaxMs": 19.7911,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 154.288,
+              "MinNsPerOperation": 135.597,
+              "MaxNsPerOperation": 184.541,
+              "AllocatedBytes": 0,
+              "Checksum": 500000604665878
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 71.78,
+              "MinNsPerOperation": 63.858,
+              "MaxNsPerOperation": 90.029,
+              "AllocatedBytes": 0,
+              "Checksum": 998678432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 35.1495,
+              "MinNsPerOperation": 29.0565,
+              "MaxNsPerOperation": 47.2985,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 100000,
+              "MedianNsPerOperation": 28.358,
+              "MinNsPerOperation": 27.408,
+              "MaxNsPerOperation": 28.764,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 100000,
+              "MedianNsPerOperation": 0.861,
+              "MinNsPerOperation": 0.71,
+              "MaxNsPerOperation": 1.056,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionary",
+          "RetainedManagedBytes": 4001792,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 60014,
+          "LoadMedianMs": 69.7357,
+          "LoadMinMs": 65.6039,
+          "LoadMaxMs": 73.6306,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 432.6835,
+              "MinNsPerOperation": 395.042,
+              "MaxNsPerOperation": 530.1955,
+              "AllocatedBytes": 0,
+              "Checksum": 500000604665878
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 40.3745,
+              "MinNsPerOperation": 28.638,
+              "MaxNsPerOperation": 46.787,
+              "AllocatedBytes": 0,
+              "Checksum": 998678432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 22.335,
+              "MinNsPerOperation": 15.9315,
+              "MaxNsPerOperation": 27.975,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 100000,
+              "MedianNsPerOperation": 4.849,
+              "MinNsPerOperation": 3.809,
+              "MaxNsPerOperation": 6.81,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 100000,
+              "MedianNsPerOperation": 3.181,
+              "MinNsPerOperation": 2.407,
+              "MaxNsPerOperation": 3.909,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionaryPooledStrings",
+          "RetainedManagedBytes": 3661824,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 60023,
+          "LoadMedianMs": 65.9649,
+          "LoadMinMs": 58.9465,
+          "LoadMaxMs": 82.6579,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 436.849,
+              "MinNsPerOperation": 290.5345,
+              "MaxNsPerOperation": 517.9485,
+              "AllocatedBytes": 0,
+              "Checksum": 500000604665878
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 37.9845,
+              "MinNsPerOperation": 29.746,
+              "MaxNsPerOperation": 48.98,
+              "AllocatedBytes": 0,
+              "Checksum": 998678432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 23.472,
+              "MinNsPerOperation": 13.95,
+              "MaxNsPerOperation": 25.3765,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 100000,
+              "MedianNsPerOperation": 3.38,
+              "MinNsPerOperation": 2.162,
+              "MaxNsPerOperation": 4.174,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 100000,
+              "MedianNsPerOperation": 1.737,
+              "MinNsPerOperation": 1.497,
+              "MaxNsPerOperation": 2.469,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            }
+          ]
+        },
+        {
+          "Backend": "CompactSmallIndex",
+          "RetainedManagedBytes": 778240,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 118,
+          "LoadMedianMs": 16.1049,
+          "LoadMinMs": 14.2777,
+          "LoadMaxMs": 19.4525,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 159.5865,
+              "MinNsPerOperation": 120.5205,
+              "MaxNsPerOperation": 175.676,
+              "AllocatedBytes": 0,
+              "Checksum": 500000604665878
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 285.5675,
+              "MinNsPerOperation": 247.5295,
+              "MaxNsPerOperation": 333.155,
+              "AllocatedBytes": 0,
+              "Checksum": 998678432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 301.931,
+              "MinNsPerOperation": 239.04,
+              "MaxNsPerOperation": 329.851,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 100000,
+              "MedianNsPerOperation": 28.338,
+              "MinNsPerOperation": 27.86,
+              "MaxNsPerOperation": 32.148,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 100000,
+              "MedianNsPerOperation": 0.802,
+              "MinNsPerOperation": 0.749,
+              "MaxNsPerOperation": 0.941,
+              "AllocatedBytes": 0,
+              "Checksum": 49950000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "RowsPerTable": 100000,
+      "TotalRows": 300000,
+      "BinaryBytes": 7613076,
+      "SourceJsonUtf8Bytes": 10009787,
+      "DtoJsonUtf8Bytes": 18709305,
+      "OfflineCompileMs": -1.0,
+      "Backends": [
+        {
+          "Backend": "CompactFastLookup",
+          "RetainedManagedBytes": 9822208,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 121,
+          "LoadMedianMs": 169.379,
+          "LoadMinMs": 163.9775,
+          "LoadMaxMs": 221.6423,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 513.4685,
+              "MinNsPerOperation": 307.6015,
+              "MaxNsPerOperation": 540.1725,
+              "AllocatedBytes": 0,
+              "Checksum": 500005102377871
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 203.1365,
+              "MinNsPerOperation": 154.453,
+              "MaxNsPerOperation": 266.4225,
+              "AllocatedBytes": 0,
+              "Checksum": 9977038432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 121.182,
+              "MinNsPerOperation": 86.4855,
+              "MaxNsPerOperation": 197.125,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 25.4634,
+              "MinNsPerOperation": 21.4013,
+              "MaxNsPerOperation": 29.3727,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 0.8743,
+              "MinNsPerOperation": 0.7901,
+              "MaxNsPerOperation": 1.0429,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionary",
+          "RetainedManagedBytes": 41390080,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 600014,
+          "LoadMedianMs": 735.1346,
+          "LoadMinMs": 687.0207,
+          "LoadMaxMs": 834.3713,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 795.959,
+              "MinNsPerOperation": 778.2015,
+              "MaxNsPerOperation": 829.1665,
+              "AllocatedBytes": 0,
+              "Checksum": 500005102377871
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 200.24,
+              "MinNsPerOperation": 174.773,
+              "MaxNsPerOperation": 242.745,
+              "AllocatedBytes": 0,
+              "Checksum": 9977038432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 72.319,
+              "MinNsPerOperation": 55.195,
+              "MaxNsPerOperation": 79.648,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 8.3792,
+              "MinNsPerOperation": 5.6895,
+              "MaxNsPerOperation": 10.7424,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 8.6391,
+              "MinNsPerOperation": 4.9022,
+              "MaxNsPerOperation": 9.8126,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            }
+          ]
+        },
+        {
+          "Backend": "TypedDtoDictionaryPooledStrings",
+          "RetainedManagedBytes": 37122048,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 600023,
+          "LoadMedianMs": 750.009,
+          "LoadMinMs": 706.872,
+          "LoadMaxMs": 762.0344,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 797.727,
+              "MinNsPerOperation": 717.816,
+              "MaxNsPerOperation": 898.357,
+              "AllocatedBytes": 0,
+              "Checksum": 500005102377871
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 198.785,
+              "MinNsPerOperation": 179.6845,
+              "MaxNsPerOperation": 264.013,
+              "AllocatedBytes": 0,
+              "Checksum": 9977038432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 82.6145,
+              "MinNsPerOperation": 68.4435,
+              "MaxNsPerOperation": 86.826,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 8.7331,
+              "MinNsPerOperation": 6.2176,
+              "MaxNsPerOperation": 10.3561,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 7.2976,
+              "MinNsPerOperation": 4.7931,
+              "MaxNsPerOperation": 10.6088,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            }
+          ]
+        },
+        {
+          "Backend": "CompactSmallIndex",
+          "RetainedManagedBytes": 7639040,
+          "LoadAllocatedBytes": -1,
+          "LoadAllocationEvents": 118,
+          "LoadMedianMs": 165.8114,
+          "LoadMinMs": 159.2186,
+          "LoadMaxMs": 213.231,
+          "Queries": [
+            {
+              "Workload": "DenseMixed",
+              "Operations": 200000,
+              "MedianNsPerOperation": 460.9115,
+              "MinNsPerOperation": 409.225,
+              "MaxNsPerOperation": 514.3555,
+              "AllocatedBytes": 0,
+              "Checksum": 500005102377871
+            },
+            {
+              "Workload": "SparseHit",
+              "Operations": 200000,
+              "MedianNsPerOperation": 438.5005,
+              "MinNsPerOperation": 368.4995,
+              "MaxNsPerOperation": 531.952,
+              "AllocatedBytes": 0,
+              "Checksum": 9977038432
+            },
+            {
+              "Workload": "MissingId",
+              "Operations": 200000,
+              "MedianNsPerOperation": 384.894,
+              "MinNsPerOperation": 307.2385,
+              "MaxNsPerOperation": 410.36,
+              "AllocatedBytes": 0,
+              "Checksum": 200000
+            },
+            {
+              "Workload": "Sequential",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 26.7607,
+              "MinNsPerOperation": 19.5281,
+              "MaxNsPerOperation": 28.2662,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            },
+            {
+              "Workload": "ColumnScan",
+              "Operations": 1000000,
+              "MedianNsPerOperation": 0.9384,
+              "MinNsPerOperation": 0.7522,
+              "MaxNsPerOperation": 1.0168,
+              "AllocatedBytes": 0,
+              "Checksum": 499500000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

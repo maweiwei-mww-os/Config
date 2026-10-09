@@ -1,0 +1,1 @@
+{"name":"Game.Config.Json","rootNamespace":"GameJson","references":["Game.Json.Compact","Game.Config.Build"],"noEngineReferences":true,"overrideReferences":true,"precompiledReferences":["Newtonsoft.Json.dll"]}

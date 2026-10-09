@@ -1,0 +1,1 @@
+{"name":"Game.Config.SourceSample.Editor","references":["Game.Json.Compact","Game.Config.Build","Game.Config.Json","Game.Config.Csv","Game.Json.Compact.Editor"],"includePlatforms":["Editor"]}

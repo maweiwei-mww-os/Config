@@ -1,0 +1,5 @@
+{
+  "name": "Game.Json.Fixture",
+  "references": ["Game.Json.Compact"],
+  "noEngineReferences": true
+}
